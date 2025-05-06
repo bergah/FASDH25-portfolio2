@@ -38,7 +38,7 @@ fig = px.scatter_mapbox(
     color="Frequency",         # bubble color = frequency too (for visual impact)
     hover_name="placename",    # when you hover over a point, it shows the place name
     animation_frame="Year-Month",  # animate the map month-by-month
-    size_max=25,               # max bubble size
+    size_max=25,                # max bubble size
     zoom=8,                    # initial zoom level
     title="Regex-extracted Place Frequencies Over Time",  # map title
     mapbox_style="open-street-map"  # free, open street base map
@@ -51,4 +51,4 @@ fig = px.scatter_mapbox(
 fig.write_html("../output/regex_map.html")
 
 # Save static image (PNG format, for reports or sharing)
-fig.write_image("../output/regex_map.png")
+fig.write_image("../map_images/regex_map.png")
