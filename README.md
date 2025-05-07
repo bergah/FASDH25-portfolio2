@@ -121,6 +121,9 @@ This project generated a Gazetteer file named NER_hazetteer.tsv in collab.
 - latitude 
 - longitude
 
+
+
+
 ## **4A** Regex-Based Place Name Frequency Mapping
 
 
@@ -182,6 +185,10 @@ Output Preview
 regex_map.html: Interactive, animated map showing how often different Gaza locations were mentioned each month.
 
 regex_map.png: Static image for reference or inclusion in printed material.
+![regex map](https://github.com/bergah/FASDH25-portfolio2/blob/main/map_images/regex_map.png)
+
+
+
 
 ## **4B** NER-based Place Name Mapping (January 2024)
 
@@ -209,6 +216,7 @@ This project visualizes the frequencies of place names extracted using **Named E
 
 - `../output/ner_map.png`:  
   A static PNG version of the same map for use in reports or offline settings.
+![Ner map](https://github.com/bergah/FASDH25-portfolio2/blob/main/map_images/ner_map.png)
 
 ### How It Works
 
