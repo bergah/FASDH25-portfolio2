@@ -43,4 +43,4 @@ fig.update_layout(map_style="open-street-map")
 
 # Save outputs (relative paths from scripts/ folder)
 fig.write_html("../output/ner_map.html")
-fig.write_image("../map_images/ner_map.png")  # Requires kaleido installed
+fig.write_image("../map_images/ner_map.png")  
